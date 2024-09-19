@@ -11,9 +11,10 @@
     </header>
     <main>
         <?php 
-        $nome = $_GET["nome"];
+        $nome = $$_GET["nome"];
         $sobrenome = $_GET["sobrenome"];
         echo "Olá, seja bem vindo ao meu site $nome $sobrenome!";
+
         ?>
     </main>
 </body>
